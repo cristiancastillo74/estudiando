@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hpinteli7.cm12036repaso">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BaseDatosCarnetActivity" />
+        <activity android:name=".AlumnoMenuActivity" />
+        <activity android:name=".NotaMenuActivity" />
+        <activity android:name=".MateriaMenuActivity" />
+        <activity android:name=".AlumnoInsertarActivity" />
+        <activity android:name=".AlumnoUpdateActivity" />
+        <activity android:name=".AlumnoDeleteActivity" />
+        <activity android:name=".AlumnoConsultarActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MateriaInsertarActivity" />
+        <activity android:name=".MateriaDeleteActivity" />
+        <activity android:name=".MateriaConsultarActivity" />
+        <activity android:name=".MateriaUpdateActivity" />
+        <activity android:name=".NotaConsultarActivity" />
+        <activity android:name=".NotaInsertarActivity" />
+        <activity android:name=".NotaDeleteActivity" />
+        <activity android:name=".NotaUpdateActivity"></activity>
+    </application>
+
+</manifest>
