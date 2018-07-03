@@ -67,6 +67,9 @@ public class ControlBD {
     public void cerrar(){
         DBHelper.close();
     }
+
+
+
     public String insertar(Alumno alumno){
         String regInsertados="Registro Insertado Nº= ";
         long contador=0;
@@ -88,6 +91,7 @@ public class ControlBD {
         }
         return regInsertados;
     }
+
     public String insertar(Nota nota){
         String regInsertados="Registro Insertado Nº= ";
         long contador=0;
